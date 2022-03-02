@@ -33,7 +33,6 @@ variable "nat_name" {
 variable "eip_type" {
   default = "5_bgp"
 }
-
 variable "eip_size" {
   default = 100
 }
@@ -42,16 +41,4 @@ variable "eip_share_type" {
 }
 variable "eip_charge_mode" {
   default = "traffic"
-}
-###################
-variable "G42_ACCESS_KEY" {
-  default = "ACCESS_KEY"
-}
-
-variable "G42_SECRET_KEY" {
-  default = "SECRET_KEY"
-}
-
-variable "G42_ACCOUNT_NAME" {
-  default = "ACCOUNT_NAME"
 }
