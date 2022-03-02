@@ -1,0 +1,1 @@
+provider "g42cloud" {}
