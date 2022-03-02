@@ -1,5 +1,5 @@
 variable "vpc_name" {
-  default = "tbx-vpc-test"
+  default = "tbx-vpc"
 }
 
 variable "vpc_cidr" {
@@ -30,6 +30,19 @@ variable "nat_name" {
   default = "tbx-nat-test"
 }
 
+variable "eip_type" {
+  default = "5_bgp"
+}
+
+variable "eip_size" {
+  default = 100
+}
+variable "eip_share_type" {
+  default = "PER"
+}
+variable "eip_charge_mode" {
+  default = "traffic"
+}
 ###################
 variable "G42_ACCESS_KEY" {
   default = "ACCESS_KEY"

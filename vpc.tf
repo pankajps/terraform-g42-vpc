@@ -15,13 +15,13 @@ resource "g42cloud_vpc_subnet" "subnet" {
 #EIP
 resource "g42cloud_vpc_eip" "nat" {
   publicip {
-    type = "5_bgp"
+    type = var.eip_type
   }
   bandwidth {
     name        = "NAT"
-    size        = 100
-    share_type  = "PER"
-    charge_mode = "traffic"
+    size        = var.eip_size
+    share_type  = var.eip_share_type
+    charge_mode = var.eip_charge_mode
   }
 }
 #NAT
