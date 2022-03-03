@@ -1,9 +1,7 @@
-output "subnet_id" {
-  description = "resorce id of aks subnet"
+output "subnetid" {
   value       = g42cloud_vpc_subnet.subnet.id
 }
 
-output "vpc_id" {
-  description = "resorce id of psg subnet"
+output "vpcid" {
   value       = g42cloud_vpc.base_vpc.id
 }
