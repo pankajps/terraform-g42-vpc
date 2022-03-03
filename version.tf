@@ -6,11 +6,11 @@ terraform {
     }
   }
 
-  cloud {
-    organization = "TecBrix"
+  # cloud {
+  #   organization = "TecBrix"
 
-    workspaces {
-      name = "ecommerce-dev"
-    }
-  }
+  #   workspaces {
+  #     name = "ecommerce-dev"
+  #   }
+  # }
 }

@@ -1,5 +1,5 @@
 variable "vpc_name" {
-  default = "tbx-vpc"
+  default = "tbx-vpc-module"
 }
 
 variable "vpc_cidr" {
