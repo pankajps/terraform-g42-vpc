@@ -5,12 +5,4 @@ terraform {
       version = ">= 1.3.0"
     }
   }
-
-  # cloud {
-  #   organization = "TecBrix"
-
-  #   workspaces {
-  #     name = "ecommerce-dev"
-  #   }
-  # }
 }
